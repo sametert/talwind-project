@@ -534,40 +534,52 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.font-gemunu {
+  font-family: Gemunu Libre, sans-serif;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
-.text-blue-500 {
+.text-blue-300 {
   --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
-.text-pink-400 {
-  --tw-text-opacity: 1;
-  color: rgb(244 114 182 / var(--tw-text-opacity));
-}
-
-.text-amber-950 {
-  --tw-text-opacity: 1;
-  color: rgb(69 26 3 / var(--tw-text-opacity));
-}
-
-.text-amber-800 {
-  --tw-text-opacity: 1;
-  color: rgb(146 64 14 / var(--tw-text-opacity));
-}
-
-.text-sky-800 {
-  --tw-text-opacity: 1;
-  color: rgb(7 89 133 / var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
+  color: rgb(147 197 253 / var(--tw-text-opacity));
 }
